@@ -1,0 +1,134 @@
+/*ESTILOS CSS DE LA PAGINA*/
+
+body {
+    scroll-behavior: smooth;
+    max-width: auto;
+    min-width: 320px;
+    }
+
+.container-fluyd {
+    position: relative;
+    margin: auto;    
+}
+
+#inicio, #quienes-somos, #destacados, #contacto {
+    min-height: 8rem;  
+}
+
+/*ESTILOS SECCIÓN NAVBAR*/
+nav, .navbar {
+    background-color:transparent !important; 
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover {
+    color: black !important;
+    text-align: center;
+}
+
+/*ESTILOS SECCIÓN QUIENES-SOMOS*/
+
+.quienes-somos {
+    background-color: black;
+    text-align: center !important;
+    color: white;
+    font-family: 'Raleway', sans-serif;   
+    height: auto;
+    width: auto;
+    padding: 2rem;
+}
+
+/*ESTILOS SECCIÓN COLUMNAS */
+
+.article {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.art-1, .art-2, .art-3 {
+    background-color: rgb(13,202,240); 
+    text-align: center;
+}
+
+/*ESTILOS SECCIÓN DESTACADOS*/
+
+.destacados {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-family: 'Raleway', sans-serif;  
+}
+
+/*ESTILOS SECCIÓN CARDS*/
+
+.cards {
+    background-color: black;
+}
+
+.card-img-top {
+    min-width: 2rem !important;
+    min-height: 2rem !important;
+}
+
+.card-text, .cards h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding: 1rem;
+    background-color: rgb(13,202,240);
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+/*ESTILOS SECCIÓN CONTACTO*/
+
+.contacto {
+    background-color: black !important;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 300;
+    width: 100%;
+}
+
+/*ESTILOS SECCIÓN FORMULARIO*/
+
+.form {
+    background-color: black !important;
+    padding: 8rem;
+}
+
+.form-text, .mb-3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 300;
+}
+
+.btn-text {
+    color: white;
+}
+
+/*ESTILOS SECCIÓN FOOTER*/
+
+.footer {
+    background-color: rgb(13,202,240);
+    color: white;
+    font-family: 'Raleway', sans-serif;  
+    font-weight: 600;
+    width: 100%;
+    font-size: large;
+    padding: 1rem
+}
