@@ -1,5 +1,3 @@
-/*ESTILOS CSS DE LA PAGINA*/
-
 body {
     scroll-behavior: smooth;
     max-width: auto;
@@ -15,7 +13,6 @@ body {
     min-height: 8rem;  
 }
 
-/*ESTILOS SECCIÓN NAVBAR*/
 nav, .navbar {
     background-color:transparent !important; 
 }
@@ -30,8 +27,6 @@ nav a:hover {
     text-align: center;
 }
 
-/*ESTILOS SECCIÓN QUIENES-SOMOS*/
-
 .quienes-somos {
     background-color: black;
     text-align: center !important;
@@ -42,7 +37,6 @@ nav a:hover {
     padding: 2rem;
 }
 
-/*ESTILOS SECCIÓN COLUMNAS */
 
 .article {
     font-family: 'Raleway', sans-serif;
@@ -58,8 +52,6 @@ nav a:hover {
     text-align: center;
 }
 
-/*ESTILOS SECCIÓN DESTACADOS*/
-
 .destacados {
     background-color: black;
     width: 100%;
@@ -70,8 +62,6 @@ nav a:hover {
     padding: 2rem;
     font-family: 'Raleway', sans-serif;  
 }
-
-/*ESTILOS SECCIÓN CARDS*/
 
 .cards {
     background-color: black;
@@ -92,7 +82,6 @@ nav a:hover {
     padding: 5%;
 }
 
-/*ESTILOS SECCIÓN CONTACTO*/
 
 .contacto {
     background-color: black !important;
@@ -104,7 +93,6 @@ nav a:hover {
     width: 100%;
 }
 
-/*ESTILOS SECCIÓN FORMULARIO*/
 
 .form {
     background-color: black !important;
@@ -121,7 +109,6 @@ nav a:hover {
     color: white;
 }
 
-/*ESTILOS SECCIÓN FOOTER*/
 
 .footer {
     background-color: rgb(13,202,240);
