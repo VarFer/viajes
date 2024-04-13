@@ -1,10 +1,6 @@
-//TOOLTIP//
-
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
-  
-  //FUNCION HIDE CARS//
   
   $('.card1').click(function(){
     $('.card1').hide();
@@ -38,8 +34,7 @@ $(function () {
     $('.card4').fadeIn();
   });
   
-  //ALERTA MENSAJE FORMULARIO//
   
   $('.btn-info').click(function(){
-    alert('Mensaje enviado')
+    alert('Mensaje enviado a la agencia')
   })
